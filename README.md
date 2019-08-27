@@ -5,6 +5,7 @@ A Racket port for RUNE library used in CS1101S of National University of Singapo
 ![carpet](screenshots/carpet.png)
 ![persian](screenshots/persian.png)
 ![spiral](screenshots/spiral.png)
+![spin](screenshots/spin.png)
 
 All function names remain unchanged as [](https://sicp.comp.nus.edu.sg/source/RUNES/index.html)
 ('_' is replaced by lisp-style '-'). Due to the color of a picture cannot be changed after the
