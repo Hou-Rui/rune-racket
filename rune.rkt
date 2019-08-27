@@ -201,7 +201,7 @@
 (define (color-fn color)
   (λ (a) (rune (pt:colorize (rune-pict a) color) #t)))
 
-(provide red green blue yellow purple indigo pink orange brown)
+(provide red green blue yellow purple indigo pink orange brown black white)
 (define red (color-fn "red"))
 (define green (color-fn "limegreen"))
 (define blue (color-fn "dodgerblue"))
