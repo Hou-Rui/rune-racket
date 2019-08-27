@@ -3,7 +3,7 @@
 (require "rune.rkt")
 
 (define (spin p a x n)
-  (letrec ([na (+ a (* x (/ pi n)))])
+  (let ([na (+ a (* x (/ pi n)))])
     (if (= x n) (random-color p)
         (above (random-color p) (spin (rotate na p) na (+ x 1) n)))))
 
